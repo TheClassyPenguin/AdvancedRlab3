@@ -1,0 +1,10 @@
+Package: lab3
+Type: Package
+Title: Advanced R Programming Lab 3 Assigment 
+Version: 0.1
+Date: 2020-09-08
+Author: Eleftheria Chatzitheodoridou and Salvador Martí Román 
+Maintainer: salvador19marti@gmail.com
+Description: Test package implementing euclidian greatest common divisor and Dijkstras algorithm.
+License: Apache 2.0
+RoxygenNote: 7.1.1
