@@ -1,4 +1,4 @@
-Package: lab3
+Package: AdvancedRlab3
 Type: Package
 Title: Advanced R Programming Lab 3 Assigment 
 Version: 0.1
@@ -9,3 +9,5 @@ License: GPL-3
 Maintainer: Salvador Marti <salvador19marti@gmail.com>
 RoxygenNote: 7.1.1
 Encoding: UTF-8
+Depends: 
+    R (>= 2.10)
