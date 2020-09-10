@@ -5,7 +5,7 @@ Version: 0.1
 Date: 2020-09-08
 Author: Eleftheria Chatzitheodoridou and Salvador Marti Roman 
 Description: Test package implementing euclidian greatest common divisor and Dijkstras algorithm.
-License: Apache 2.0
+License: GPL-3
 Maintainer: Salvador Marti <salvador19marti@gmail.com>
 RoxygenNote: 7.1.1
 Encoding: UTF-8

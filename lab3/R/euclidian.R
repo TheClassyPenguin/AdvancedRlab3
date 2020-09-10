@@ -18,8 +18,8 @@
 
 #' \code{euclidian} returns the lowest common denominator between two numbers.
 #' 
-#' @param x A number.
-#' @param y A number.
+#' @param a A number.
+#' @param b A number.
 #' @return The lowest common denominator of \code{x} and \code{y}.
 #' @examples
 #' euclidian(1, 1)
