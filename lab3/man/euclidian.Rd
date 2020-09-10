@@ -7,9 +7,9 @@
 euclidian(a, b)
 }
 \arguments{
-\item{x}{A number.}
+\item{a}{A number.}
 
-\item{y}{A number.}
+\item{b}{A number.}
 }
 \value{
 The lowest common denominator of \code{x} and \code{y}.
