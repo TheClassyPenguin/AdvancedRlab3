@@ -1,2 +1,3 @@
+before_script: cd lab3
 language: r
 cache: packages
