@@ -16,16 +16,16 @@
 # 1.1.1 #
 #########
 
-#' \code{euclidian} returns the lowest common denominator between two numbers.
+#' \code{euclidean} returns the lowest common denominator between two numbers.
 #' 
 #' @param a A number.
 #' @param b A number.
 #' @return The lowest common denominator of \code{x} and \code{y}.
 #' @examples
-#' euclidian(1, 1)
-#' euclidian(10, 1)
+#' euclidean(1, 1)
+#' euclidean(10, 1)
 #' @export
-euclidian = function(a,b){
+euclidean = function(a,b){
   while(b!=0){
     t = b
     b = a %% b
