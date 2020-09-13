@@ -9,10 +9,10 @@ euclidean(a, b)
 \arguments{
 \item{a}{A number.}
 
-\item{b}{A number.}
+\item{b}{B number.}
 }
 \value{
-The lowest common denominator of \code{x} and \code{y}.
+The lowest common denominator of \code{a} and \code{b}.
 }
 \description{
 \code{euclidean} returns the lowest common denominator between two numbers.

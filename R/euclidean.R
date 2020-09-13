@@ -19,8 +19,8 @@
 #' \code{euclidean} returns the lowest common denominator between two numbers.
 #' 
 #' @param a A number.
-#' @param b A number.
-#' @return The lowest common denominator of \code{x} and \code{y}.
+#' @param b B number.
+#' @return The lowest common denominator of \code{a} and \code{b}.
 #' @examples
 #' euclidean(1, 1)
 #' euclidean(10, 1)
