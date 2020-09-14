@@ -3,10 +3,12 @@ Type: Package
 Title: Advanced R Programming Lab 3 Assignment 
 Version: 0.1
 Date: 2020-09-08
-Author: Eleftheria Chatzitheodoridou and Salvador Marti Roman 
-Description: Test package implementing euclidian greatest common divisor and Dijkstras algorithm.
+Authors@R: c(
+    person("Salvador", "Marti Roman", email = "salvador19marti@gmail.com", role = c("aut", "cre")),
+    person("Eleftheria", "Chatzitheodoridou", email = "e.hatzitheodoridi@gmail.com", role = "aut")) 
+Description: Test package implementing euclidean GCD algorithm and Dijkstra's algorithm. On both functions, we follow the pseudocode provided on the corresponding Wikipedia links. For the euclidean function, we replace the Euclidean division by the modulo operation, which returns only the remainder making the iteration more efficient. For the dijkstra one, we are iteratively looking at the node with the currently smallest distance to the source and update all not yet visited neighbours if the path to it via the current node is shorter.
 License: GPL-3
-Maintainer: Salvador Marti <salvador19marti@gmail.com>
+Maintainer: Salvador Marti Roman <salvador19marti@gmail.com>
 RoxygenNote: 7.1.1
 Encoding: UTF-8
 Depends: 

@@ -5,7 +5,7 @@
 \alias{wiki_graph}
 \title{A test graph.}
 \format{
-Dataframe with 3 columns
+A data frame with 3 columns.
 \describe{
   \item{v1}{vertex 1}
   \item{v2}{vertex 2}

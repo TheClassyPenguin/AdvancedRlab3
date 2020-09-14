@@ -16,11 +16,17 @@
 # 1.1.2 #
 #########
 
-#' \code{dijkstra} returns the distance between to nodes for a given path.
+#' \code{dijkstra} returns the distance between two nodes for a given path.
 #' 
+#' The pseudocode used for this function can be found on 
+#' \url{https://en.wikipedia.org/wiki/Dijkstra's_algorithm}
+#'  
 #' @param graph Graph.
 #' @param init_node Starting node.
 #' @return Array indicating path length to each node.
+#' @examples
+#' dijkstra(wiki_graph, 1)
+#' dijkstra(wiki_graph, 3)
 #' @export
 dijkstra <- function(graph, init_node) {
   

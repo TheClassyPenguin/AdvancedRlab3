@@ -15,7 +15,8 @@ euclidean(a, b)
 The lowest common denominator of \code{a} and \code{b}.
 }
 \description{
-\code{euclidean} returns the lowest common denominator between two numbers.
+The pseudocode for this function can be found on the following link:
+\url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
 }
 \examples{
 euclidean(1, 1)

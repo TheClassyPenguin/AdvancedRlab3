@@ -18,6 +18,9 @@
 
 #' \code{euclidean} returns the lowest common denominator between two numbers.
 #' 
+#' The pseudocode for this function can be found on the following link:
+#' \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
+#' 
 #' @param a A number.
 #' @param b B number.
 #' @return The lowest common denominator of \code{a} and \code{b}.
@@ -33,10 +36,3 @@ euclidean = function(a,b){
   }
   return(a)
 }
-
-
-#########
-# 1.1.2 #
-#########
-
-#dijkstra = function()
