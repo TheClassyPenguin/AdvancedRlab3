@@ -23,10 +23,13 @@
 #' @return Array indicating path length to each node.
 #' @export
 dijkstra <- function(graph, init_node) {
+  
   stopifnot(is.data.frame(graph))
   stopifnot(is.numeric(init_node))
   
   node_names= unique(c(graph$v1, graph$v2))
+  
+  stopifnot(init_node %in% node_names)
   
   #Create Q
   Q = cbind(graph$v1,graph$v2, graph$w)
@@ -66,5 +69,5 @@ dijkstra <- function(graph, init_node) {
       }
     }
   }
-  return(dist)
+  return(unname(dist))
 }
