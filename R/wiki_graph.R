@@ -7,6 +7,7 @@
 #'   \item{w}{edge weight}
 #'   ...
 #' }
+#' @export
 #' @source \url{https://raw.githubusercontent.com/STIMALiU/AdvRCourse/master/2020_LecturesLabs/732A94_AdvancedRHT2020_Lab03.pdf}
 "wiki_graph"
 wiki_graph <-
